@@ -3,7 +3,10 @@ var next=document.querySelector('.next');
 
 function startCounter()
 {
-    var interval=setInterval(animate, 1000);
+    var number=parseInt(document.getElementById("number").value);
+    alert(number);
+    // var interval=setInterval(animate, 1000);
+    
 }
 
 function animate()
