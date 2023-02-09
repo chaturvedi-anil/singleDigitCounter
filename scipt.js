@@ -35,6 +35,7 @@ function startCounter()
             return;
         }
 
+        // this function calling goes continuelly until if condition execute
         increaseCount(currentNo, nextNo);
         count++;
     }, 1000);
